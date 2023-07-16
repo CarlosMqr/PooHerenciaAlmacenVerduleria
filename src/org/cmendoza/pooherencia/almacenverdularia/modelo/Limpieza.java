@@ -10,5 +10,12 @@ public class Limpieza extends Producto{
         this.litros = litros;
     }
     ///////////// GETTER AND SETTER /////
+    public String getComponentes(){
+        return this.componentes;
+    }
+
+    public int getLitros() {
+        return this.litros;
+    }
     //////////// MÉTODOS ///////////////
 }

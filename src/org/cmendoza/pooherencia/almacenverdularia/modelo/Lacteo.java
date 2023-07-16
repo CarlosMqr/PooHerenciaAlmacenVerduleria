@@ -10,5 +10,11 @@ public class Lacteo extends Producto{
         this.proteinas = proteinas;
     }
     ///////////// GETTER AND SETTER /////
+    public int getCantidad(){
+        return this.cantidad;
+    }
+    public int getProteinas(){
+        return this.proteinas;
+    }
     //////////// MÉTODOS ///////////////
 }

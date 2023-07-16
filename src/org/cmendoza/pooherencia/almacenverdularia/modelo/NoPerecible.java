@@ -10,5 +10,11 @@ public class NoPerecible extends Producto{
          this.calorias = calorias;
      }
     ///////////// GETTER AND SETTER /////
+    public int getContenido(){
+         return this.contenido;
+    }
+    public int getCalorias(){
+         return this.calorias;
+    }
     //////////// MÉTODOS ///////////////
 }

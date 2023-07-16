@@ -10,5 +10,11 @@ public class Fruta extends Producto{
         this.peso = peso;
     }
     ///////////// GETTER AND SETTER /////
+    public String getColor(){
+        return this.color;
+    }
+    private int getPeso(){
+        return this.peso;
+    }
     //////////// MÉTODOS ///////////////
 }
